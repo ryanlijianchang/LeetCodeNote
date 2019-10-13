@@ -154,3 +154,30 @@ n<=39
 
 [Topic7.java](https://github.com/ryanlijianchang/SwordOfferCode/blob/master/Topic7.java)
 
+### 8.跳台阶 ###
+
+**题目描述**
+
+一只青蛙一次可以跳上1级台阶，也可以跳上2级。求该青蛙跳上一个n级的台阶总共有多少种跳法（先后次序不同算不同的结果）。
+
+**题解思路**
+
+- (1)递归
+    - 解释：等于前两个结果之和
+    - 时间复杂度：O(n^2)
+    - 空间复杂度：O(1)
+    
+- (2)优化递归
+    - 解释：等于前两个结果之和，每次从缓存拿结果，拿不到再递归计算
+    - 时间复杂度：O(n)
+    - 空间复杂度：O(n)
+
+- (3)动态规划
+    - 解释：跟斐波那契数列数列一样，可以求最优解
+    - 时间复杂度：O(n)
+    - 空间复杂度：O(1)
+
+**题解代码**
+
+[Topic8.java](https://github.com/ryanlijianchang/SwordOfferCode/blob/master/Topic8.java)
+

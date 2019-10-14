@@ -7,9 +7,9 @@ import java.util.Arrays;
 public class Topic9 {
 
     /**
-     * 斐波那契数列变种
+     * 递归（斐波那契数列变种）
      * 解释：之前的斐波那契数列都是每次只能跳有限的次数，所以本次的值就等于有限的跳法相加，当一次能跳n种时，我们可以通过求前面所有的跳法之和再加1即可
-     * 时间复杂度：O(n^2)
+     * 时间复杂度：O(2^n)
      * 空间复杂度：O(n)
      */
     public int JumpFloorII2(int target) {

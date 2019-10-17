@@ -23,6 +23,8 @@
 
 [Topic1.java](https://github.com/ryanlijianchang/SwordOfferCode/blob/master/Topic1.java)
 
+---
+
 ### 2.替换空格 ###
 
 **题目描述**
@@ -38,6 +40,8 @@
 **题解代码**
 [Topic2.java](https://github.com/ryanlijianchang/SwordOfferCode/blob/master/Topic2.java)
 
+
+---
 
 ### 3.从尾到头打印链表 ###
 
@@ -60,6 +64,8 @@
 
 [Topic3.java](https://github.com/ryanlijianchang/SwordOfferCode/blob/master/Topic3.java)
 
+---
+
 ### 4.重建二叉树 ###
 
 **题目描述**
@@ -77,6 +83,8 @@
 **题解代码**
 
 [Topic4.java](https://github.com/ryanlijianchang/SwordOfferCode/blob/master/Topic4.java)
+
+---
 
 
 ### 5.用两个栈实现队列 ###
@@ -96,6 +104,8 @@
 **题解代码**
 
 [Topic5.java](https://github.com/ryanlijianchang/SwordOfferCode/blob/master/Topic5.java)
+
+---
 
 ### 6.旋转数组的最小数字 ###
 
@@ -122,6 +132,8 @@ NOTE：给出的所有元素都大于0，若数组大小为0，请返回0。
 **题解代码**
 
 [Topic6.java](https://github.com/ryanlijianchang/SwordOfferCode/blob/master/Topic6.java)
+
+---
 
 ### 7.斐波那契数列 ###
 
@@ -154,6 +166,8 @@ n<=39
 
 [Topic7.java](https://github.com/ryanlijianchang/SwordOfferCode/blob/master/Topic7.java)
 
+---
+
 ### 8.跳台阶 ###
 
 **题目描述**
@@ -180,6 +194,8 @@ n<=39
 **题解代码**
 
 [Topic8.java](https://github.com/ryanlijianchang/SwordOfferCode/blob/master/Topic8.java)
+
+---
 
 ### 9.变态跳台阶 ###
 
@@ -208,6 +224,8 @@ n<=39
 [Topic9.java](https://github.com/ryanlijianchang/SwordOfferCode/blob/master/Topic9.java)
 
 
+---
+
 ### 10.矩形覆盖 ###
 
 **题目描述**
@@ -234,6 +252,8 @@ n<=39
 **题解代码**
 
 [Topic10.java](https://github.com/ryanlijianchang/SwordOfferCode/blob/master/Topic10.java)
+
+---
 
 ### 11.二进制中1的个数 ###
 

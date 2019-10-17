@@ -275,3 +275,27 @@ n<=39
 
 [Topic11.java](https://github.com/ryanlijianchang/SwordOfferCode/blob/master/Topic11.java)
 
+---
+
+### 12.数值的整数次方 ###
+
+**题目描述**
+
+给定一个double类型的浮点数base和int类型的整数exponent。求base的exponent次方。保证base和exponent不同时为0
+
+**题解思路**
+
+- (1)累乘
+    - 解释：先判断指数是正数或者负数，然后取正数进行累乘，然后判断如果指数是负数返回1/该数值。
+    - 时间复杂度：O(n)
+    - 空间复杂度：O(1)
+
+- (2)快速幂运算
+    - 解释：指数转换为二机制数后，判断1的个数和位置，不断因为累乘
+    - 时间复杂度：O(log2n)
+    - 空间复杂度：O(1)
+
+**题解代码**
+
+[Topic12.java](https://github.com/ryanlijianchang/SwordOfferCode/blob/master/Topic12.java)
+

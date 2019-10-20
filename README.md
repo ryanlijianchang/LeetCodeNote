@@ -318,3 +318,25 @@ n<=39
 [Topic13.java](https://github.com/ryanlijianchang/SwordOfferCode/blob/master/Topic13.java)
 
 
+### 14.链表中倒数第k个结点 ###
+
+**题目描述**
+
+输入一个链表，输出该链表中倒数第k个结点。
+
+**题解思路**
+
+- (1)常规法
+    - 解释：先遍历获取长度，再计算倒数第k个位置对应顺数的位置
+    - 时间复杂度：O(n)
+    - 空间复杂度：O(1)
+- (2)快慢指针法
+    - 解释：使快指针比慢指针领先k个位置，这样快指针和慢指针的距离就是k，然后让快慢指针同时后移，直至quickNode到队尾，这时慢指针就是从后向前的第k个位置。
+           注意边界case判断
+    - 时间复杂度：O(n)
+    - 空间复杂度：O(1)
+
+**题解代码**
+
+[Topic14.java](https://github.com/ryanlijianchang/SwordOfferCode/blob/master/Topic14.java)
+

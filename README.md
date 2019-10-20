@@ -299,3 +299,22 @@ n<=39
 
 [Topic12.java](https://github.com/ryanlijianchang/SwordOfferCode/blob/master/Topic12.java)
 
+
+### 13.调整数组顺序使奇数位于偶数前面 ###
+
+**题目描述**
+
+输入一个整数数组，实现一个函数来调整该数组中数字的顺序，使得所有的奇数位于数组的前半部分，所有的偶数位于数组的后半部分，并保证奇数和奇数，偶数和偶数之间的相对位置不变。
+
+**题解思路**
+
+- (1)类似插入排序
+    - 解释：记住当前有序数组的最后一个奇数的下标，从前往后遍历数组，遇到奇数，将前面有序的偶数数组均往后移动一个位置，将该奇数插入到最后一个奇数下标index的下一个位置，如此重复，直至遍历完数组。
+    - 时间复杂度：O(n^2)
+    - 空间复杂度：O(1)
+
+**题解代码**
+
+[Topic13.java](https://github.com/ryanlijianchang/SwordOfferCode/blob/master/Topic13.java)
+
+

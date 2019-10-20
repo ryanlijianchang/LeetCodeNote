@@ -299,6 +299,7 @@ n<=39
 
 [Topic12.java](https://github.com/ryanlijianchang/SwordOfferCode/blob/master/Topic12.java)
 
+---
 
 ### 13.调整数组顺序使奇数位于偶数前面 ###
 
@@ -317,6 +318,7 @@ n<=39
 
 [Topic13.java](https://github.com/ryanlijianchang/SwordOfferCode/blob/master/Topic13.java)
 
+---
 
 ### 14.链表中倒数第k个结点 ###
 
@@ -340,3 +342,49 @@ n<=39
 
 [Topic14.java](https://github.com/ryanlijianchang/SwordOfferCode/blob/master/Topic14.java)
 
+---
+
+### 15.翻转链表 ###
+
+**题目描述**
+
+输入一个链表，反转链表后，输出新链表的表头。
+
+**题解思路**
+
+- (1)前后指针法
+    - 解释：将前指针指向未翻转序列的第一个元素，后指针指向已翻转的最后一个元素，然后将未翻转的第一个元素翻转，重复次操作
+    - 时间复杂度：O(n)
+    - 空间复杂度：O(1)
+
+**题解代码**
+
+[Topic15.java](https://github.com/ryanlijianchang/SwordOfferCode/blob/master/Topic15.java)
+
+
+---
+
+
+### 16.合并两个排序的链表 ###
+
+**题目描述**
+
+输入一个链表，反转链表后，输出新链表的表头。
+
+**题解思路**
+
+- (1)非递归法
+    - 解释：遍历list2中到每一个结点，然后插入到list1中
+    - 时间复杂度：O(n)
+    - 空间复杂度：O(1)
+- (1)递归法
+    - 解释：list1中每一个结点的next都依赖下一次merge返回的结果
+    - 时间复杂度：O(n)
+    - 空间复杂度：O(1)
+
+**题解代码**
+
+[Topic16.java](https://github.com/ryanlijianchang/SwordOfferCode/blob/master/Topic16.java)
+
+
+---
